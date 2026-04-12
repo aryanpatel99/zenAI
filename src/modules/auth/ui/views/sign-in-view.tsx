@@ -162,7 +162,7 @@ export const SignInView = () => {
                         )}
                     </form>
                     <div className="bg-radial from-neutral-900 to-neutral-800 relative hidden md:flex flex-col gap-y-4 items-center justify-center">
-                        <img src="logo.svg" alt="" className="h-23 w-23" />
+                        <img src="/logo.svg" alt="" className="h-23 w-23" />
                         <p className="text-2xl font-semibold text-white">ZenAI</p>
                     </div>
                 </CardContent>
