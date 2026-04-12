@@ -16,4 +16,3 @@ export const auth = betterAuth({
 });
 
 
-// created api/[auth]...52
