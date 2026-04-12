@@ -8,7 +8,6 @@ import { useRouter } from "next/navigation";
 export default function HomeView() {
     const router = useRouter()
   const {data:session} = authClient.useSession()
-  console.log(session)
 
 //   if(!session){
 //     return (
