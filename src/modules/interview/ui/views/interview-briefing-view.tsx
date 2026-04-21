@@ -62,7 +62,9 @@ export default function InterviewBriefingView({ id }: { id: string }) {
           <Card className="border-destructive/30 bg-destructive/10">
             <CardHeader>
               <CardTitle>Could not load briefing</CardTitle>
-              <CardDescription>{template.error.message}</CardDescription>
+              <CardDescription>
+                Something went wrong while loading the interview details. Please try again later.
+              </CardDescription>
             </CardHeader>
           </Card>
         ) : !template.data ? (

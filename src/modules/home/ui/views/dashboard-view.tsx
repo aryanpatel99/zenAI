@@ -99,6 +99,7 @@ export default function DashboardView() {
                 onClick={() => router.push(`/interview/${template.id}/briefing`)}
                 onKeyDown={(event) => {
                   if (event.key === "Enter" || event.key === " ") {
+                    event.preventDefault();
                     router.push(`/interview/${template.id}/briefing`);
                   }
                 }}
