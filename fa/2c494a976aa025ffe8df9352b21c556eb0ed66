@@ -1,0 +1,41 @@
+src/db/seed.ts
+  7310606c4fa0ad0c 1-35
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.2",
+  "base_commit_sha": "fa2c494a976aa025ffe8df9352b21c556eb0ed66",
+  "prompts": {
+    "7310606c4fa0ad0c": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019dae4c-c44c-79f3-b178-c2b6698ee3c2",
+        "model": "gpt-5.4"
+      },
+      "human_author": "Aryan Patel",
+      "messages": [],
+      "total_additions": 31,
+      "total_deletions": 97,
+      "accepted_lines": 31,
+      "overriden_lines": 0
+    },
+    "df1f3fa8e2aa6259": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "c98a9301-a6f7-4dca-b8a7-e2e5c3ad4ee0",
+        "model": "copilot/gemini-3.1-pro-preview"
+      },
+      "human_author": "Aryan Patel",
+      "messages": [],
+      "total_additions": 151,
+      "total_deletions": 2,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    }
+  },
+  "humans": {
+    "h_e67cc62ab13a2f": {
+      "author": "Aryan Patel"
+    }
+  }
+}
